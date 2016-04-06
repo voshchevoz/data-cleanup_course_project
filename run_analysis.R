@@ -14,6 +14,8 @@
 # 4. Appropriately labels the data set with descriptive variable names.
 # 5. From the data set in step 4, creates a second, independent tidy data set
 #    with the average of each variable for each activity and each subject.
+#
+# For the Code Book of the tidy dataset please refer to the CodeBook.md file.
 
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 fileLocalPath <- "./data/FUCI_HAR_Dataset.zip"
@@ -97,4 +99,6 @@ merged$Subject <- factor(merged$Subject)
 # calculate means by activity and subject
 means <- aggregate(. ~ Activity + Subject, merged, mean)
 
-print("Tidy dataset created.")
+write.table(means, "tidy.txt", quote = FALSE, sep = ";", row.names = FALSE)
+
+print("Tidy dataset created and written to tidy.txt.")
