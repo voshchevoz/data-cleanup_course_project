@@ -13,6 +13,7 @@ The values of the observations are not quoted and do not contain NULL or NA valu
 The dataset contains average of Mean and Std (standard deviation) observations of each variable for each activity and each subject from the original dataset (refer to assignment.txt fpr the link to the original dataset code book).
 
 The variables include
+
 | Variable       |  Type      |
 |:---------------|-----------:|
 |Activity| Factor|
