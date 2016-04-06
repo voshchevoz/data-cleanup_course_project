@@ -6,7 +6,7 @@ The results of the Getting and Cleaning Data assignment are stored in the tidy.t
 tidy.txt file contains 180 observations of 68 variables with each row corresponding to a one observation.
 The file contains header row giving names to the variables (described in the next section) totalling in 181 rows in the raw file.
 
-The observations are separated by semicolon (; character, ASCI code 59), the decimal separator is dot (. character, ASCI code 46) with the row separator being \n character (ASCI code 10).
+The observations are separated by space (" " character, ASCI code 32), the decimal separator is dot (. character, ASCI code 46) with the row separator being \n character (ASCI code 10).
 The values of the observations are not quoted and do not contain NULL or NA values.
 
 ## Variables described

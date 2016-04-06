@@ -15,6 +15,6 @@ For the details of the original dataset please refer to the links available at a
 ## Reading tidy.txt file
 To verify the assignment and load tidy.txt file one can use the following commands ( `View` works with RStudio):
 ```
-test  <- read.csv("tidy.txt", sep = ";")
+test  <- read.csv("tidy.txt", sep = " ")
 View(test)
 ```

@@ -99,6 +99,6 @@ merged$Subject <- factor(merged$Subject)
 # calculate means by activity and subject
 means <- aggregate(. ~ Activity + Subject, merged, mean)
 
-write.table(means, "tidy.txt", quote = FALSE, sep = ";", row.names = FALSE)
+write.table(means, "tidy.txt", quote = FALSE, row.names = FALSE)
 
 print("Tidy dataset created and written to tidy.txt.")
