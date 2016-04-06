@@ -9,6 +9,8 @@ The file contains header row giving names to the variables (described in the nex
 The observations are separated by space (" " character, ASCI code 32), the decimal separator is dot (. character, ASCI code 46) with the row separator being \n character (ASCI code 10).
 The values of the observations are not quoted and do not contain NULL or NA values.
 
+The dataset doen not include row names.
+
 ## Variables described
 The dataset contains average of Mean and Std (standard deviation) observations of each variable for each activity and each subject from the original dataset (refer to assignment.txt fpr the link to the original dataset code book).
 
